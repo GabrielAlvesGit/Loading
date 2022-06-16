@@ -20,7 +20,6 @@ header{
 }
 .container{
     display: flex;
-    
 }
 
 /*border-radius: 50%; posso usar para deixar redondo se eu quiser deixar quadrado só tirar*/
@@ -33,7 +32,6 @@ header{
     border-bottom-color: transparent;
     border-radius: 50%;
     animation: spin 1.9s infinite;
-    
 }
 
 .line{
@@ -143,5 +141,43 @@ footer{
     p{
         width: 100%;
     }
+    .line{
+        border-right:2px solid  rgba(255,255,255,0.75);
+        color: #fff;
+        font-family: Jazz LET, fantasy;
+        font-size: 2em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .typing-animation{
+        animation: blinkCursor 500ms infinite normal, typing 1.5s steps(40) 1s normal both;
+       align-items: center;
+       margin: 25px;
+    }
+    
+    @keyframes typing {
+        from{
+            width: 0;
+        }
+        to{
+            width: 3.4em;
+        }
+    }
+    @keyframes blinkCursor {
+        form{
+            border-right-color: rgba(255,255,255,0.75);
+        }
+        to{
+            border-right-color: transparent;
+        }
+    }
+   
     
 }
