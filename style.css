@@ -30,7 +30,7 @@ header{
     border: 5px solid #cc00ff;
     border-top-color: transparent;
     border-bottom-color: transparent;
-    border-radius: 0%;
+    border-radius: 50%;
     animation: spin 1.9s infinite;
 }
 
@@ -142,6 +142,7 @@ footer{
         width: 100%;
     }
     .line{
+        width: 100%;
         border-right:2px solid  rgba(255,255,255,0.75);
         color: #fff;
         font-family: Jazz LET, fantasy;
@@ -161,23 +162,5 @@ footer{
        align-items: center;
       
     }
-    
-    @keyframes typing {
-        from{
-            width: 0;
-        }
-        to{
-            width: 3.4em;
-        }
-    }
-    @keyframes blinkCursor {
-        form{
-            border-right-color: rgba(255,255,255,0.75);
-        }
-        to{
-            border-right-color: transparent;
-        }
-    }
-   
     
 }
