@@ -4,6 +4,10 @@
     box-sizing: border-box;
     justify-content: center;
 }
+@font-face {
+    font-family: 'impact';
+    src: url('impact.ttf') format('truetype'), url('Impacted.ttf') format('truetype');
+}
 body{
     display: flex;
     align-items: center;
@@ -31,7 +35,7 @@ header{
     border: 5px solid #cc00ff;
     border-top-color: transparent;
     border-bottom-color: transparent;
-    border-radius: 50%;
+    border-radius: 0%;
     animation: spin 1.9s infinite;
     
 }
@@ -39,7 +43,7 @@ header{
 .line{
     border-right:2px solid  rgba(255,255,255,0.75);
     color: #fff;
-    font-family: Impact;
+    font-family: impact;
     font-size: 2em;
     margin: 0;
     white-space: nowrap;
@@ -138,6 +142,10 @@ footer{
         height: 100%;
         margin: auto;
     }  
+    @font-face {
+        font-family: 'impact';
+        src: url('impact.ttf') format('truetype'), url('Impacted.ttf') format('truetype');
+    }
     .container {
         width: 90%;
     }
@@ -149,7 +157,7 @@ footer{
     .line{
         border-right:2px solid  rgba(255,255,255,0.75);
         color: #fff;
-        font-family: Jazz LET, fantasy;
+        font-family: impact;
         font-size: 2em;
        
         white-space: nowrap;
