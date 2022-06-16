@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    justify-content: center;
+    
 }
 body{
     display: flex;
@@ -30,7 +30,7 @@ header{
     border: 5px solid #cc00ff;
     border-top-color: transparent;
     border-bottom-color: transparent;
-    border-radius: 50%;
+    border-radius: 0%;
     animation: spin 1.9s infinite;
 }
 
@@ -159,7 +159,7 @@ footer{
     .typing-animation{
         animation: blinkCursor 500ms infinite normal, typing 1.5s steps(40) 1s normal both;
        align-items: center;
-       margin: 25px;
+      
     }
     
     @keyframes typing {
