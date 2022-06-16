@@ -39,7 +39,7 @@ header{
 .line{
     border-right:2px solid  rgba(255,255,255,0.75);
     color: #fff;
-    font-family: Jazz LET, fantasy;
+    font-family: Impact;
     font-size: 2em;
     margin: 0;
     white-space: nowrap;
@@ -48,7 +48,7 @@ header{
 }
 
 .typing-animation{
-    animation: blinkCursor 500ms infinite normal, typing 1.5s steps(40) 1s normal both;
+   animation: blinkCursor 500ms infinite normal, typing 1.5s steps(40) 1s normal both;
    align-items: center;
    margin: 25px;
 }
@@ -157,9 +157,9 @@ footer{
         text-align: center;
     }
     .typing-animation{
-        animation: blinkCursor 500ms infinite normal, typing 1.5s steps(40) 1s normal both;
-       align-items: center;
-      width: 100%;
+     animation: blinkCursor 500ms infinite normal, typing 1.5s steps(40) 1s normal both;
+     align-items: center;
+     width: 100%;
     }
     
     @keyframes typing {
@@ -167,7 +167,7 @@ footer{
             width: 0;
         }
         to{
-            width: 3.6em;
+            width: 68%;
         }
     }
     @keyframes blinkCursor {
@@ -178,4 +178,5 @@ footer{
             border-right-color: transparent;
         }
     }
+    
 }
